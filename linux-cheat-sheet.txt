@@ -1,0 +1,34 @@
+FILES
+
+ls -al => Lists files - both regular & hidden files and their permissions as well.
+
+pwd => Displays the current directory file path
+mkdir ‘directory_name’ => Creates a new directory
+rm file_name => Removes a file
+rm -f filename => Forcefully removes a file
+rm -r directory_name => Removes a directory recursively
+rm -rf directory_name => Removes a directory forcefully and recursively
+cp file1 file2 => Copies the contents of file1 to file2
+cp -r dir1 dir2 => Recursively Copies dir1 to dir2. dir2 is created if it does not exist
+
+mv file1 file2 => Renames file1 to file2
+ln -s /path/to/file_name/link_name=> Creates a symbolic link to file_name
+
+touch file_name => Creates a new file
+cat > file_name => Places standard input into a file
+more file_name => Outputs the contents of a file
+head file_name => Displays the first 10 lines of a file
+tail file_name => Displays the last 10 lines of a file
+gpg -c file_name => Encrypts a file
+gpg file_name.gpg => Decrypts a file
+wc => Prints the number of bytes, words and lines in a file
+xargs => Executes commands from standard input
+
+SEARCH 
+
+grep ‘pattern’ files => Search for a given pattern in files
+grep -r pattern dir => Search recursively for a pattern in a given directory
+locate file => Find all instances of the file
+find /home/ -name “index” => Find file names that begin with ‘index’ in /home folder
+
+find /home -size +10000k => Find files greater than 10000k in the home folder

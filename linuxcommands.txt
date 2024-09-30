@@ -1,0 +1,59 @@
+GOOGLE PRESENTATION
+ssh => OpenSSH SSH client (remote login program)
+
+hostname -i => show or set the system's host name | (-i) ip-adress
+
+ifconfig -a => configure a network interface | (-a) display all interfaces which are currently aviable, even if down
+
+whoami => print effective userid
+
+date => print or set the sistem date and time 
+
+cal => display a calendar and the date of Easter
+
+ls -altr => list directory contents | (-a) --all | (-l) long listing format | (-t) sort by modification time, newest first | (-r) reverse order while sorting
+
+mkdir -p => make directory | (-p) --parents; no error if existing, make parent directories as needed
+
+touch => change file timestamps
+
+rm -rv => remove files or directories | (-r) --recursive; remove directories and their contents recursively | (-v) --verbose; explain what is being done
+
+rmdir => remove empty directories
+
+mv => move/rename files
+
+clear => clear the terminal screen
+
+cd => change working directory
+
+pwd => print name of working directory
+
+cat => concatenate files and print on the standard output
+
+more => file persual filter for crt viewing
+
+head => output the first part of files
+
+tail => output the last part of files
+
+grep -R/-r => prints lines matching a pattern | (-R/-r) --recursive; read all files under each directory, recursively (this is equivalent to the -d recurse option
+
+sftp => secure file transfer program
+
+vi => screen-oriented (visual) display editor
+
+tar -c/xvfz => the GNU version of the tar archiving utility | (-c) --create | (-x) --extract | (-v) --veborse; veborsely list files processed | (-f) --file ARCHIVE | (-z) zipping
+
+wc => word count
+
+file => determine file type
+
+locate => list files in database that match a pattern
+
+rm -rf directory_name => Removes a directory forcefully and recursively
+
+cp file1 file2 => Copies the contents of file1 to file2
+
+cp -r dir1 dir2 => Recursively Copies dir1 to dir2. dir2 is created if it does notexist
+
